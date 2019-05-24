@@ -1,0 +1,8 @@
+applications:
+- name: dora
+  instances: 1
+  memory: 36M
+  disk_quota: 512M
+  random-route: true
+  buildpack: ruby_buildpack
+  stack: sle12
